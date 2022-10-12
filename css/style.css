@@ -1,0 +1,191 @@
+/*--------------ПІДКЛЮЧЕННЯ ШРИФТІВ-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/*---------------------------------------------------*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #424551;
+}
+[class*="__container"]{
+    margin: 0 auto;
+    max-width: 810px;
+}
+
+.article__header {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.article__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.article__body {
+    margin-bottom: 90px;
+}
+.article__picture {
+    margin-bottom: 60px;
+}
+.article__picture img{
+    max-width: 100%;
+}
+.article__text {
+    margin-bottom: 50px;
+    line-height: 160%;
+}
+.article__text p:not(:last-child){
+    margin-bottom: 24px;
+}
+.article__main-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.article__quote {
+    margin-bottom: 48px;
+    padding-left: 58px;
+    min-height: 30px;
+    background: url("../img/icons/braces.svg")  no-repeat 0 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+.article__list p{
+    margin-bottom: 24px;
+}
+.article__list {
+    margin-bottom: 24px;
+}
+.article__list li{
+    padding-left: 32px;
+    margin-bottom: 4px;
+    min-height: 26px;
+    background: url("../img/icons/check.svg")  no-repeat 0 0;
+}
+.home-page__container{
+    margin: 0 auto;
+    max-width: 1230px;
+}
+.home-page{
+    background: url('../img/dots.png') 0 60px no-repeat, url('../img/circles.png') right 255px no-repeat;
+}
+.about-us__content {
+    margin-bottom: 180px;
+}
+.about-us__picture {
+    width: 705px;
+}
+.about-us__picture img{
+    max-width: 100%;
+}
+.about-us__caption {
+    margin-bottom: 40px;
+}
+.caption {
+    color: #1E212C;
+}
+.caption__subtitle {
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.caption__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+.about-us__list {
+    margin-bottom: 48px;
+}
+.about-us__list li{
+    padding-left: 32px;
+    padding-bottom: 12px;
+    min-height: 26px;
+    line-height: 160%;
+    background: url("../img/icons/check.svg")  no-repeat 0 0;
+}
+.about-us__button {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    width: 161px;
+    height: 44px;
+    padding: 0px 32px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.courses {
+}
+.courses__content {
+    margin-bottom: 180px;
+}
+.courses__caption {
+    margin-bottom: 60px;
+}
+.courses__button {
+    margin-bottom: 60px;
+    padding: 0px 40px;
+    width: 202px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 63, 58, 1);
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    color: rgba(255, 63, 58, 1);
+}
+.courses__block {
+    margin-bottom: 30px;
+    width: 600px;
+    height: 214px;
+    background: #FFFFFF;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+}
+.benefits__content {
+    margin-bottom: 120px;
+}
+.benefits__caption {
+    text-align: center;
+}
+.benefits__control{
+    margin-bottom: 60px;
+}
+.benefits__slider {
+    font-weight: 700;
+    line-height: 160%;
+    text-align: center;
+    color: #9A9CA5;
+    width: 307px;
+    height: 46px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.benefits__slider:hover {
+    color: rgba(255, 63, 58, 1);
+    border: 1px solid #FF3F3A;
+}
+.benefits__text h3{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.benefits__text p{
+    line-height: 160%;
+}
+.benefits__picture {
+}
